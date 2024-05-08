@@ -1,0 +1,16 @@
+#turnoff {
+    width: 60px;
+    height: 60px;
+    border: 3px solid black;
+    border-radius: 50%;
+    border-top-color: transparent;
+} #turnoff::before {
+    content: "";
+    position: absolute;
+    background-color: black;
+    height: 20px;
+    width: 4px;
+    left: 40px;
+    top: 10px;
+    border-radius: 20%;
+}
